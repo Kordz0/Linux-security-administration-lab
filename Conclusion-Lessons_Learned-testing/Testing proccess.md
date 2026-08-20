@@ -31,7 +31,7 @@ The individual directories were also checked to verify their ownership and permi
 
 **Expected result:** Each directory should have the expected owner, group, and permission configuration based on its intended role.
 
-![test2](Conclusion-Lessons_Learned-testing/Screenshots/test2.png)
+![test2](./Screenshots/test2.png)
 
 ---
 
@@ -45,7 +45,7 @@ getfacl /home/kali/company/<directory>
 
 **Expected result:** The configured users should appear in the ACL entries with the additional permissions assigned to them.
 
-![test3](Conclusion-Lessons_Learned-testing/Screenshots/test3.png)
+![test3](./Screenshots/test3.png)
 
 ---
 
@@ -65,7 +65,7 @@ ls
 
 The same testing approach was used with `dev02` to verify its assigned access.
 
-![test4](Conclusion-Lessons_Learned-testing/Screenshots/test4.png)
+![test4](./Screenshots/test4.png)
 
 ---
 
@@ -84,7 +84,7 @@ cd /home/kali/company/Security
 
 Similar tests were performed against other restricted directories to verify that users could not access resources outside their assigned permissions.
 
-![test5](Conclusion-Lessons_Learned-testing/Screenshots/test5.png)
+![test5](./Screenshots/test5.png)
 
 ---
 
@@ -102,7 +102,7 @@ The user was also tested against other resources where additional access had bee
 
 **Expected result:** The `security` user should be able to access the resources required for its administrative role.
 
-![test6](Conclusion-Lessons_Learned-testing/Screenshots/test6.png)
+![test6](./Screenshots/test6.png)
 
 ---
 
@@ -118,7 +118,7 @@ ls
 
 **Expected result:** The `managmentteam` user should successfully access the Management resources while being restricted from directories intended for other teams.
 
-![test7](Conclusion-Lessons_Learned-testing/Screenshots/test7.png)
+![test7](./Screenshots/test7.png)
 
 ---
 
@@ -138,7 +138,7 @@ The same test was performed using other users.
 
 **Expected result:** Users should be able to access the shared resource according to its intended configuration.
 
-![test8](Conclusion-Lessons_Learned-testing/Screenshots/test8.png)
+![test8](./Screenshots/test8.png)
 
 ---
 
