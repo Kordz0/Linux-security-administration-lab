@@ -15,7 +15,7 @@ id dev02
 
 **Expected result:** Each user should belong to the appropriate group and have the expected user and group IDs.
 
-![test1](Conclusion-Lessons_Learned-testing/Screenshots/test1.png)
+![test1](./Screenshots/test1.png)
 
 ---
 
