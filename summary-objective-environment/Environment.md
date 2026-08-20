@@ -15,6 +15,7 @@ The project was implemented inside an isolated virtual machine using VMware Work
 | Network          | NAT                |
 | Disk Controller  | SCSI               |
 
+![machine_configuration](./Machine_Config.png)
 ## Organizational Environment
 
 The Linux system was designed to represent a community consisting of multiple teams with different responsibilities and access requirements.
