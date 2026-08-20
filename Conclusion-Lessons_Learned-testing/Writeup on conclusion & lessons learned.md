@@ -386,3 +386,41 @@ The purpose was to move beyond simply learning Linux commands and use them to so
 By creating the environment, configuring access, and testing both authorized and unauthorized actions, I was able to verify that the permission model behaved as intended.
 
 Overall, the project provided practical experience with Linux access control and demonstrated how fundamental Linux administration concepts can be combined to create a structured and controlled environment.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Conclusion
+
+This project was created to put the Linux administration concepts I learned into a practical and realistic environment. Instead of practicing commands individually, I used them to build a small company-style Linux environment with multiple users, groups, directories, ownership rules, permissions, ACLs, and shared resources.
+
+The main goal was to control access to different resources based on the responsibilities of each user and group. The Security user was configured to manage the main company directory, while other users were given access according to their roles. ACLs were also used when standard Linux permissions were not enough to provide the required level of access.
+
+After configuring the environment, I tested the permissions by switching between users and attempting to access different directories. Authorized users were able to access the resources assigned to them, while unauthorized users were denied access. These tests helped verify that the configured permissions and ACLs were working as intended.
+
+Overall, the project allowed me to demonstrate that I can apply Linux administration concepts to a practical scenario rather than simply knowing the commands themselves.
+
+# Lessons Learned
+
+One of the most important things I learned from this project is that Linux permissions are not just commands such as `chmod` and `chown`. They are part of an access-control system where ownership, groups, permissions, and ACLs work together.
+
+I also learned the importance of testing configurations after making changes. Instead of assuming that a permission or ACL was configured correctly, I verified the result by using different users and attempting both authorized and unauthorized actions.
+
+The project also improved my understanding of the difference between standard Linux permissions and ACLs. Standard permissions provide the basic owner, group, and other access model, while ACLs allow more specific permissions to be assigned to individual users when needed.
+
+Another important lesson was understanding how Linux directory permissions affect access. In particular, the execute permission on a directory is necessary for users to traverse and access its contents.
+
+Most importantly, this project changed the way I approach Linux administration. Rather than learning commands separately, I learned to think about **why** a command is being used, **what security purpose it serves**, and **how to verify that the result is correct**.
+
+# Future Improvements
+
+Although the project demonstrates the core Linux administration concepts I have learned so far, it can be expanded in the future.
+
+Possible improvements include:
+
+* Adding Bash scripting to automate repetitive administration tasks.
+* Implementing centralized logging and monitoring.
+* Exploring SSH hardening and additional server security controls.
+* Adding Linux auditing tools.
+* Expanding the environment with additional services.
+* Introducing more advanced access-control scenarios.
+
+These improvements represent the next steps I can take as I continue developing my Linux administration and cybersecurity skills.
+
